@@ -67,8 +67,8 @@
                         <div class="form-group row">
                         <label for="gender" class="col-md-4 col-form-label text-md-right">{{ __('Gender') }}</label>
                             <div class="col-md-6">
-                            male<input id="gender" type="radio"  name="gender" />
-                              female<input id="gender" type="radio"  name="gender"/>
+                            male<input id="gender1" type="radio"  name="gender" value="male"/>
+                              female<input id="gender2" type="radio"  name="gender" value="female"/>
                             @error('gender')
                             <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
